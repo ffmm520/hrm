@@ -4,7 +4,7 @@ spring:
   application:
     name: hrm-company
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://192.168.2.20:33306/ihrm?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: root
